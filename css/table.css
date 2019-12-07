@@ -1,0 +1,88 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 650px;
+  box-shadow: 0 0 15px -6px #00000073;
+}
+
+table tr {
+  background-color: #fff;
+}
+
+table th, table td {
+  text-align: center;
+  padding: .35em 1em;
+  border-bottom: 1px solid #eee;
+}
+
+table thead th {
+  text-align: center;
+  font-size: .85em;
+  padding: 1em;
+}
+
+table thead tr {
+  background-color: #9C27B0;
+  color: #fff;
+}
+
+table tbody th {
+  text-align: left;
+  font-size: .8em;
+}
+
+.txt {
+  text-align: center;
+  /* font-size: .75em; */
+}
+
+.price {
+  text-align: right;
+  color: #000;
+  font-weight: bold;
+}
+
+.up {
+  text-align: left;
+  color: #FF0000;
+}
+
+.down {
+  text-align: left;
+  color: #1E90FF;
+}
+
+.myRow {
+  background-color: #E1BEE7;
+}
+
+.miniGamerRow {
+  background-color: #FFB62B;
+}
+
+.rank {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    width: 100%;
+  }
+  table th, table td {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 320px) {
+  table {
+    width: 100%;
+  }
+  table th, table td {
+    font-size: 13px;
+  }
+}

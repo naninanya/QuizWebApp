@@ -1,0 +1,17 @@
+.chart {
+    position: relative;
+}
+
+p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* margin: auto; */
+    right: 0;
+    /* margin: auto; */
+    text-align: center;
+    font-size: 20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

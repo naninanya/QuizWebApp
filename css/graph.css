@@ -1,0 +1,91 @@
+/************************************
+** 割合棒グラフ
+************************************/
+.percentage-bar-wrap{
+    margin: 0 auto 4rem;/* 余白 */
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-flex:1;
+    -ms-flex:1;
+    flex:1;
+  }
+  .percentage-bar-wrap > div:first-child{
+    border-radius:4px 0 0 4px;
+  }
+  .percentage-bar-wrap > div:last-child{
+    border-radius:0 4px 4px 0;
+    margin-right: 0;
+  }
+  .percentage-bar{
+    height: 30px;/* 棒高さ */
+    margin-right: 2px;/* 棒余白 */
+  }
+  .percentage-bar-num{
+    text-align:center;
+    color:#fff;/* ラベル文字色 */
+    line-height: 30px;
+    font-weight: 600;/* ラベル文字太さ */
+    font-size:11px;/* ラベル文字サイズ */
+  }
+  .percentage-bar-item{
+    color:#777;/* コンテンツ文字色 */
+    text-align:center;
+    font-weight: 600;/* コンテンツ文字太さ */
+    font-size:13px;/* コンテンツ文字サイズ */
+    margin-top:5px;
+    letter-spacing: 1px;
+  }
+  /*スマホ*/
+  @media screen and (max-width: 480px) {
+    .percentage-bar-item{
+        font-size:10px;/* コンテンツ文字サイズ */
+      }
+  }
+  /* 青(デフォルト) */
+  .bar-blue > div:nth-of-type(1){background:#00b0eb;}
+  .bar-blue > div:nth-of-type(2){background:#14c4ff;}
+  .bar-blue > div:nth-of-type(3){background:#3bceff;}
+  .bar-blue > div:nth-of-type(4){background:#62d8ff;}
+  .bar-blue > div:nth-of-type(5){background:#7ddbfa;}
+  .bar-blue > div:nth-of-type(6){background:#00b0eb;}
+  .bar-blue > div:nth-of-type(7){background:#14c4ff;}
+  .bar-blue > div:nth-of-type(8){background:#3bceff;}
+  .bar-blue > div:nth-of-type(9){background:#62d8ff;}
+  .bar-blue > div:nth-of-type(10){background:#7ddbfa;}
+  /* ピンク */
+  .bar-pink > div:nth-of-type(1){background:#eb5555;}
+  .bar-pink > div:nth-of-type(2){background:#ef7878;}
+  .bar-pink > div:nth-of-type(3){background:#f39b9b;}
+  .bar-pink > div:nth-of-type(4){background:#f5adad;}
+  .bar-pink > div:nth-of-type(5){background:#f7bebe;}
+  .bar-pink > div:nth-of-type(6){background:#eb5555;}
+  .bar-pink > div:nth-of-type(7){background:#ef7878;}
+  .bar-pink > div:nth-of-type(8){background:#f39b9b;}
+  .bar-pink > div:nth-of-type(9){background:#f5adad;}
+  .bar-pink > div:nth-of-type(10){background:#f7bebe;}
+  /* 黄色 */
+  .bar-yellow > div:nth-of-type(1){background:#e3b047;}
+  .bar-yellow > div:nth-of-type(2){background:#fdc44f;}
+  .bar-yellow > div:nth-of-type(3){background:#fdc960;}
+  .bar-yellow > div:nth-of-type(4){background:#fdcf72;}
+  .bar-yellow > div:nth-of-type(5){background:#fdd583;}
+  .bar-yellow > div:nth-of-type(6){background:#e3b047;}
+  .bar-yellow > div:nth-of-type(7){background:#fdc44f;}
+  .bar-yellow > div:nth-of-type(8){background:#fdc960;}
+  .bar-yellow > div:nth-of-type(9){background:#fdcf72;}
+  .bar-yellow > div:nth-of-type(10){background:#fdd583;}
+  /* 緑 */
+  .bar-green > div:nth-of-type(1){background:#28ad98;}
+  .bar-green > div:nth-of-type(2){background:#2fcdb4;}
+  .bar-green > div:nth-of-type(3){background:#4dd6c0;}
+  .bar-green > div:nth-of-type(4){background:#6ddecc;}
+  .bar-green > div:nth-of-type(5){background:#7de1d1;}
+  .bar-green > div:nth-of-type(6){background:#28ad98;}
+  .bar-green > div:nth-of-type(7){background:#2fcdb4;}
+  .bar-green > div:nth-of-type(8){background:#4dd6c0;}
+  .bar-green > div:nth-of-type(9){background:#6ddecc;}
+  .bar-green > div:nth-of-type(10){background:#7de1d1;}
+  /* 対比 */
+  .bar-contrast > div:nth-of-type(1){background:#00bfff;}
+  .bar-contrast > div:nth-of-type(2){background:#ef7878;}
